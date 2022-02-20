@@ -12,6 +12,7 @@
     <script>
         let animal = 'dog',
             isHungry = 'true',
+            isYoung = 'true',
             age = 12;
 
         console.log(animal);
@@ -19,9 +20,13 @@
             console.log("It's " + isHungry + "Yes he's hungry")
         }
 
+        if (isYoung) {
+            console.log("if is " + isYoung + " years old he is very young")
+        }
+
 
         let firstName = "Vena";
-        let lastName = prompt("What is his last name?");
+        lastName = prompt("What is his last name?");
         console.log(firstName + " " + lastName);
         alert(firstName + " " + lastName);
 
@@ -50,8 +55,8 @@
         //Cannot reassign or redeclare a const
 
 
-        let testVareE;
-        testVareE = null;
+        let testVareE; // undefinde
+        testVareE = null; // null
         console.log(testVareE);
     </script>
 
